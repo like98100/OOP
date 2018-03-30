@@ -1,7 +1,8 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
-
+//앞으로 class 내부 변수는 외부 참조 경우 제외하고 private로 선언
 struct Goblin {
     int hp;
     char name[100];
@@ -28,8 +29,9 @@ int main()
     //g.name = "seagarve";
     g.speed = 1.12;
     helloGoblin(&g);
-
-
+    //선언할 때 &를 써서 원본 정보 전달 가능
+    //reference variable
+    //목적 :: 원본 정보를 넘기기 위해, 큰 데이터 정보를 빠르게 넘기기 위해 사용(포인터 변수와 같다)
 
     return 0;
 }
