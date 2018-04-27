@@ -63,5 +63,16 @@ int main()
 	//int *p = new int; // 동적 할당
 	//delete p;		  // 정상
 	//delete p;		  // 실행시간 오류, 이미 반환한 메모리를 중복 반환할 수 없음
+	
+	
+	//배열 반환 another
+	int *p = new int[5];
+
+	for(int i = 0; i < 5; i++)
+	{
+		p[i] = i;
+	}
+	
+	delete [] p;
 	return 0;
 }
