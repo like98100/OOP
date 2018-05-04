@@ -1,0 +1,4 @@
+﻿  source.cpp
+c:\users\b407_29\desktop\oop\0504\0504\source.cpp(41): warning C4172: 지역 변수 또는 임시: test의 주소를 반환하고 있습니다.
+  0504.vcxproj -> C:\Users\B407_29\Desktop\OOP\0504\Debug\0504.exe
+  0504.vcxproj -> C:\Users\B407_29\Desktop\OOP\0504\Debug\0504.pdb (Full PDB)
